@@ -14,19 +14,19 @@
 
 /* ── Palette ────────────────────────────────────────────────────────────────
    Ported from the legacy gallery's own SCSS variables (the legacy env key for
-   Manuscripts is `dca`, not `manuscripts`), plus the shared MWNF Galleries values.
+   Manuscripts is `man`), plus the shared MWNF Galleries values.
 
-   Manuscripts is its own brand — olive/khaki where amulets is terracotta — so
+   Manuscripts is its own brand — each legacy gallery had its own palette — so
    nothing here is shared with a sibling gallery. --theme-dark-rgb is the same
    colour as --theme-dark in a form the translucent overlays can take an alpha
    on, so a palette change never has to be chased into a component. */
 :root {
-  --theme-dark:        #504819;  /* banner, header, footer */
-  --theme-dark-rgb:    80, 72, 25;
-  --theme-medium-dark: #6b612b;  /* dark menu items */
-  --theme-medium:      #7e743e;  /* text background, search button */
-  --theme-light:       #91864d;  /* light menu items */
-  --background-color:  #fffff0;  /* page background */
+  --theme-dark:        #7b3a2e;  /* banner, header, footer */
+  --theme-dark-rgb:    123, 58, 46;
+  --theme-medium-dark: #826440;  /* dark menu items */
+  --theme-medium:      #ba4b37;  /* text background, search button */
+  --theme-light:       #ae895d;  /* light menu items */
+  --background-color:  #f5d9d3;  /* page background */
 
   --shadow-grey:  #707070;
   --link-blue:    #0000ff;
